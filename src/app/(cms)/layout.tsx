@@ -8,10 +8,10 @@ const layout = ({
 }>) => {
 	return (
 		<div className="flex gap-5">
-			<div className="p-5 w-full">
+			<div className="p-5 w-3/12">
 				<Sidebar />
 			</div>
-			<div className="p-5 w-full">
+			<div className="p-5 w-9/12">
 				<div className="p-10 shadow-lg bg-white rounded-lg w-full h-full">{children}</div>
 			</div>
 		</div>
